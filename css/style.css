@@ -1,0 +1,126 @@
+ /* how create variables in css  */
+:root {
+  --primary-color: #5497df;
+  --secondary-color: #f8f8f8;
+  --text-color: #333;
+  --border-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.coloring-box {
+  height: 175px;
+  background-color:
+   #5497df;
+}
+
+.form {
+  justify-content: center;
+align-items: center;
+  margin: 0 auto;
+  margin-top: -100px;
+  width: fit-content ;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 40px 30px;
+  min-width: 350px;
+}
+
+.container , .header  , footer , .form {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  justify-content: center;
+   text-align: left;
+}
+ 
+
+.header {
+  justify-content: space-between;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 2em;
+  padding-bottom: 25px;
+ color: var(--primary-color);  /*  how use variables in css */
+}
+
+.header p {
+  font-size: 14px;
+  color: var(--primary-color); /*  how use variables in css */
+  padding-bottom: 50px;
+}
+
+.rows {
+  display: flex;
+  gap: 10px; 
+  margin-bottom: 10px;
+}
+
+.rows p {
+  font-size: 12px; 
+   color: var(--primary-color); /*  how use variables in css */
+  padding-bottom: 10px;
+}
+
+.rows input {
+  width: 270px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.elements textarea {
+  width: 550px;
+  height: 90px;
+  padding: 10px;
+  resize: none;
+}
+
+.button {
+  font-weight: bold;
+  width: 550px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: white;
+  background-color: #5497df;
+}
+
+footer { 
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #f8f8f8;
+  padding: 15px 0;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-content img {
+  width: 20px;
+  height: 20px;
+  color:#5497df;
+}
