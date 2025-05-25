@@ -738,6 +738,7 @@ body {
   }
   .sixthIconsLine {
     gap: 40px;
+    padding-bottom: 80px;
   }
   .sixthMain {
     padding-bottom: 170px;
